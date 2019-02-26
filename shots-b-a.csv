@@ -1,0 +1,15 @@
+﻿Sid-b,Sid-a,k-b,k-a,a-b,a-a,g-b,g-a,t-b,t-a
+Start,R,R,R,,,R,L,R,R
+R,L,L,C,,,L,C,L,L
+C,R,R,C,,,R,R,C,R
+C,L,L,C,,,R,L,R,L
+Start,R,,,,,,,L,L
+L,L,,,,,,,,
+C,R,,,,,,,,
+R,R,,,,,,,,
+L,C,,,,,,,,
+Start,R,,,,,,,,
+R,L,,,,,,,,
+L,C,,,,,,,,
+R,R,,,,,,,,
+L,L,,,,,,,,
