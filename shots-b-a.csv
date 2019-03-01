@@ -3,10 +3,10 @@ Start,R,R,R,,,R,L,R,R
 R,L,L,C,,,L,C,L,L
 C,R,R,C,,,R,R,C,R
 C,L,L,C,,,R,L,R,L
-Start,R,Start,L,,,,,L,L
-L,L,C,R,,,,,,
-C,R,R,C,,,,,,
-R,R,L,C,,,,,,
+Start,R,Start,L,,,Start,L,L,L
+L,L,C,R,,,L,R,,
+C,R,R,C,,,L,R,,
+R,R,L,C,,,R,L,,
 L,C,C,C,,,,,,
 Start,R,,,,,,,,
 R,L,,,,,,,,

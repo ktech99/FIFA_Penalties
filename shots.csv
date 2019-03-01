@@ -3,10 +3,10 @@ R,R,,L,R
 L,C,,C,L
 R,C,,R,R
 L,C,,L,L
-R,L,,,L
-L,R,,,
-R,C,,,
-R,C,,,
+R,L,,L,L
+L,R,,R,
+R,C,,R,
+R,C,,L,
 C,C,,,
 R,,,,
 L,,,,
