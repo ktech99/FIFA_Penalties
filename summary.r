@@ -1,5 +1,6 @@
 library(ggplot2)
 library(plyr)
+library(forecast)
 
 
 shotData = read.csv("shots.csv", header = TRUE)
@@ -21,3 +22,16 @@ plot(x, sid_data$Sid, main = "Main title",
      xlab = "X axis title", ylab = "Y axis title",
       frame = FALSE)
 lines(x, sid_data$Sid, type = "l")
+
+
+sid_data$ID <- seq.int(nrow(sid_data))
+
+p1 <- ggplot(sid_data, aes(x=ID,y=sid_data$Sid)) +
+  geom_line() +
+  geom_point() +
+  geom_hline(aes(yintercept=0))
+print(p1)
+
+
+autoArimaFit <- auto.arima(sid_data$Sid)
+plot(forecast(autoArimaFit, h=3))
